@@ -1,10 +1,7 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let lowestNumber = numbers[0];
+let numbers = [];
 
-for(index = 0; index < numbers.length; index += 1) {
-    if(numbers[index] < lowestNumber) {
-        lowestNumber = numbers[index];
-    }
+for (let index = 0; index < 25; index += 1) {
+    numbers[index] = index + 1;
 }
 
-console.log(lowestNumber);
+console.log(numbers);
